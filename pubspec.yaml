@@ -47,32 +47,32 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/images/todo.png"
+  image_path: "assets/image/todo.png"
   min_sdk_android: 32 # android min sdk min:16, default 21
   web:
     generate: true
-    image_path: "assets/images/todo.png"
+    image_path: "assets/image/todo.png"
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    image_path: "assets/images/todo.png"
+    image_path: "assets/image/todo.png"
     icon_size: 48 # min:48, max:256, default: 48
   macos:
     generate: true
-    image_path: "assets/images/todo.png"
+    image_path: "assets/image/todo.png"
 
 
 flutter_native_splash:
   color: "#dcd5cd"
-  image: assets/images/todo.png
+  image: assets/image/todo.png
   color_dark: "#1b1106"
-  image_dark: assets/images/todo.png
+  image_dark: assets/image/todo.png
 
   android_12:
-    image: assets/images/todo.png
+    image: assets/image/todo.png
     icon_background_color: "#dcd5cd"
-    image_dark: assets/images/todo.png
+    image_dark: assets/image/todo.png
     icon_background_color_dark: "#1b1106"
 
   web: false
@@ -96,8 +96,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-   assets:
-     - assests/images
+  assets:
+    - assets/image/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
